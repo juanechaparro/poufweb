@@ -1,22 +1,20 @@
 import React from 'react'
-import axios from 'axios'
+// import axios from 'axios'
 
 
 
-  const fetchcus = async() =>{
-    try {
-        const response = await axios.get(`https://graph.instagram.com/1116239486?fields=id,username&access_token=IGQVJVYzBQTVVKYzFVRUs1bVc0RTVoM2lpZATNhVkpuRWxUTWZAVSEdLeEpBUmNLMS1EMnJlYktXaUhzZAlJNX2MyVWZA4bEdadXZAJdXVBdWJ4ckNsbHFCUEJKREpYT0NFVVNqOXhmajlMVUNLVHlIMWZACcAZDZD`)
-        const result = await response.data //[4].Background
-        console.log(result);
-        return result
-    } catch (error) {
-        console.log(error);
-    }
-}
-
-
+//   const fetchcus = async() =>{
+//     try {
+//         const response = await axios.get(`https://graph.instagram.com/1116239486?fields=id,username&access_token=----`)
+//         const result = await response.data //[4].Background
+//         console.log(result);
+//         return result
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
 export const InstagramScreen = () => {
-     fetchcus();
+    //  fetchcus();
   return (
     <>
        <div className='insta_containert'>
