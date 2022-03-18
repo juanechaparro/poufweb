@@ -1,0 +1,76 @@
+.insta_containerg{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-basis: 0;
+    justify-content: center;
+    
+ }
+ a{
+    text-decoration: none;
+ }
+ .insta_colleccion {
+    
+    width: 40%;
+    height: 40%;
+    display: grid;
+    grid: 1fr 1fr/2fr 2fr 2fr;
+    grid-gap: 5px;
+    .insta_frame {
+        background-size: cover !important;
+        overflow: hidden !important;
+        background: no-repeat center center;
+            iframe{
+                width: 100%;
+                height: 250px;
+                margin-top: -50px;
+                border: 0;
+                
+            }
+    }
+}
+.insta_containert{
+    width: 100wh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4em;
+}
+.title_a{
+    color: rgb(141, 140, 140);
+    font-size: 0.8rem;
+    
+}
+.title_b{
+    color: $dark;
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.title_c{
+    color: $dark;
+    font-size: 1rem;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    width: 100vw;
+    margin-left:-135px ;
+    i{
+        position: relative;
+            right: 32px;
+            top: 12px;
+            color: black;
+    }
+}
+
+.form-input{
+    padding: 0.9em;
+    border: 1px solid black;
+    width: 36vw;
+    display: flex;
+    justify-content: space-between;
+}
+input::placeholder{
+    color: black;
+}

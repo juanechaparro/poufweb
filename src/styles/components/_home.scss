@@ -1,0 +1,37 @@
+.home_background{ 
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+    
+    img{
+        width: 100vw;
+        height: 100vh;
+    }   
+}
+
+.home_title-b {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    .home_text {
+        font-size: 3em;
+        color: #fff;
+        text-shadow: 2px 2px 2px rgb(126, 126, 126);
+    }
+}
